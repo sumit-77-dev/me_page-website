@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sumit's desktop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.co2904m">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sumitdesktop.css">
+</head>
+<body class="body">
+    <audio id="theme-sound" src="theme-change-sound.wav" preload="none"></audio>
+    <div id="root"></div>
+    <div class="header">
+        <img src="dark_mode_dark.webp" class="header-image header-1" onclick={lighttheme()} loading="lazy" decoding="async">
+    </div>
+    <div class="main-box">
+        <div class="center-box">
+            <div class="home home-js">
+                <div class="home-text">home</div>
+            </div>
+            <div class="content-box">
+                <div class="name">
+                    <div class="text1 text1-js">hi!</div>
+                    <div class="text2 text2-js">i'm sumit</div>
+                </div>
+                <div class="profession profession-js"><div>artist, video editor, and developer(FY)</div></div>
+                <div class="icons icons-js">
+                    <div class="about about-react res">
+                            <img src="icon_about_dark.webp" class="image" loading="lazy" decoding="async">
+                            <p class="icon-text">about</p>
+                    </div>
+                    <div class="links links-react res">
+                        <img src="icon_links_dark.webp" class="image" loading="lazy" decoding="async">
+                        <p class="icon-text">links</p>
+                    </div>
+                    <div class="works works-react res">
+                        <img src="icon_work_dark.webp" class="image" loading="lazy" decoding="async">
+                        <p class="icon-text">works</p>
+                    </div>
+                    <div class="faq faq-react res">
+                        <img src="icon_faq_dark.webp" class="image" loading="lazy" decoding="async">
+                        <p class="icon-text">faq</p>
+                    </div>                    
+                    <div class="contacts contacts-react res">
+                        <img src="icon_contact_dark.webp" class="image" loading="lazy" decoding="async">
+                        <p class="icon-text">contacts</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="sumitdesktop-theme.js" defer></script>
+    <!-- React 18 CDN -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!--React Draggable -->
+    <script src="https://unpkg.com/react-draggable@4.4.5/build/web/react-draggable.min.js"></script>
+
+    <!--Babel for JSX -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/babel" src="app.js" defer></script>
+</body>
