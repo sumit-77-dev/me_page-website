@@ -285,7 +285,7 @@ function App() {
                         </div>
                         <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
                             <a href="https://www.instagram.com/yeap_icandraw_/" target="_main"><img src="icon_ig_dark.webp" style={{height: '80px', width: '80px'}}></img></a>
-                            <div className={linkboxtext}>intagram</div>
+                            <div className={linkboxtext}>instagram</div>
                         </div>
                         <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
                             <img src="icon_discord_dark.webp" style={{height: '80px', width: '80px'}}></img>
@@ -481,7 +481,7 @@ function App() {
                 </div>
                 <div className={mainboxclass}>
                     <div style={{height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                        <div style={{textAlign: 'center', fontFamily: 'sans-serif'}}>For privacy reasons i'm not provinding any email for contact,<br /> but you can DM me on <a href="https://www.instagram.com/yeap_icandraw_/" target="_main" className={seelinkcolor} style={{cursor: 'pointer'}}>instagram</a></div>
+                        <div style={{textAlign: 'center', fontFamily: 'sans-serif'}}>For privacy reasons i'm not providing any email for contact,<br /> but you can DM me on <a href="https://www.instagram.com/yeap_icandraw_/" target="_main" className={seelinkcolor} style={{cursor: 'pointer'}}>instagram</a></div>
                     </div>
                 </div>
             </div>
