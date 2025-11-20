@@ -204,7 +204,7 @@ function App() {
                 </div>
                 <div className={mainboxclass}>
                     <div style={{display: 'flex', padding: 32, alignItems: 'center', height: '36%'}}>
-                        <img src="profile-image-1.jpg" style={{width: 160, height: 160, borderRadius: 500}}></img>
+                        <img src="profile-image-1.png" style={{width: 160, height: 160, borderRadius: 500}}></img>
                         <div style={{padding: 25, marginTop: 12}}>
                             <div style={{fontSize: 48, fontFamily: 'sans-serif', fontWeight: 500, color: namecolor }}>Sumit kumar gola
                                 <span style={{fontSize: 24, fontWeight: 500}}> スミット</span>
@@ -499,3 +499,4 @@ function App() {
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);
+
